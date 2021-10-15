@@ -158,10 +158,9 @@ h2{
   .mycv{color: black;
       font-weight: 200px;
   }
-  /* .Pimage{animation-timing-function: linear;} */
+  /* Animating my intro */
   .myintro{animation-timing-function: ease;}
-  /* .contact{animation-timing-function: ease-in;} */
-  /* .mycv{animation-timing-function: ease-out;} */
+  
   @keyframes mymove {
     from {left: 100%;}
     to {left: 0%;}
@@ -170,4 +169,6 @@ h2{
     from {left: -100%;}
     to {left: 0%;}
   }
-
+@media all and (max-width: 360px){
+  
+}

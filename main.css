@@ -8,9 +8,13 @@ ul{
     border: 1px solid #e7e7e7;
     background-color: #f3f3f3;
 }
+.mycv{
+  font-size: large;
+}
 body{
     background-color:#a88132;
     /*background-image: url('image4.jpg');*/
+    
 }
 image{
     border-radius: 50%;
@@ -142,7 +146,28 @@ h2{
   h1{
       text-align: center;
   }
-
-
-
+  .Pimage{
+    position: relative;
+    animation: mymove 5s infinite;
+  } 
+  .myintro{
+    position: relative;
+    animation: moves 5s infinite;
+    animation-delay: 5s;
+  }
+  .mycv{color: black;
+      font-weight: 200px;
+  }
+  /* .Pimage{animation-timing-function: linear;} */
+  .myintro{animation-timing-function: ease;}
+  /* .contact{animation-timing-function: ease-in;} */
+  /* .mycv{animation-timing-function: ease-out;} */
+  @keyframes mymove {
+    from {left: 100%;}
+    to {left: 0%;}
+  }
+  @keyframes moves {
+    from {left: -100%;}
+    to {left: 0%;}
+  }
 
